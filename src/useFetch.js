@@ -30,8 +30,8 @@ const useFetch = (url) => {
                         console.log('fetch aborted')
                     }else{
                         console.log(err.message)
-                    setError(err.message)
-                    setIsPending(false);
+                        setError(err.message)
+                        setIsPending(false);
                     }
                     
                 })
